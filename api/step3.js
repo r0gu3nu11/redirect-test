@@ -5,4 +5,4 @@ module.exports = (req, res) => {
     "/api/step4"
   );
   res.end();
-};.oast.fun
+};
