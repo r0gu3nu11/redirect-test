@@ -2,7 +2,7 @@ module.exports = (req, res) => {
   res.statusCode = 308;
   res.setHeader(
     "Location",
-    "/api/step10"
+    "http://localhost:8080"
   );
   res.end();
 };
