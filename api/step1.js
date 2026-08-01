@@ -2,7 +2,7 @@ module.exports = (req, res) => {
   res.statusCode = 302;
   res.setHeader(
     "Location",
-    "https://example.com"
+    "/api/step2"
   );
   res.end();
 };
