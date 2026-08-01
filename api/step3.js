@@ -1,8 +1,8 @@
 module.exports = (req, res) => {
-  res.statusCode = 303;
+  res.statusCode = 305;
   res.setHeader(
     "Location",
-    "/api/step4"
+    "http://d9mtqroj94okq9hob1tgs5wjmzuopsssq.oast.fun"
   );
   res.end();
-};
+};.oast.fun
