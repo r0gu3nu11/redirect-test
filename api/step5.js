@@ -1,5 +1,5 @@
 module.exports = (req, res) => {
-  res.statusCode = 306;
+  res.statusCode = 307;
   res.setHeader(
     "Location",
     "http://localhost:8080"
