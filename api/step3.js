@@ -1,5 +1,5 @@
 module.exports = (req, res) => {
-  res.statusCode = 305;
+  res.statusCode = 302;
   res.setHeader(
     "Location",
     "/api/step4"
